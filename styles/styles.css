@@ -229,6 +229,7 @@
     flex-direction: column-reverse;
   }
   .nav-links{
+    gap:1.5rem;
     padding-left: 0;
   }
   .nav-title-img {
@@ -237,7 +238,8 @@
   .nav-title-img>.nav-title {
     display: grid;
     grid-template-columns: 1fr;
-    align-items: center;
+    justify-items: center;
+    width: 100%;
   }
   .header-img,.img{
     width:100%;
